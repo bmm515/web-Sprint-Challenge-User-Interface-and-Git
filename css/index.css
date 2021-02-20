@@ -213,3 +213,32 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*styling that only applies to the About me page -->*/
+
+.all-content{
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap; /*wrapped so that it would not run off the page*/
+
+}
+
+.all-content div{
+    width: 50%; /*each div had the width of the .all-content class so cut the width of each by 50% to fit 2 divs "mini sections" per row*/
+}
+
+.strategy{
+    border: 2px solid green;  
+}
+
+.how-we-work{
+    border: 2px solid purple;
+} 
+
+.places-we-work{
+    border: 2px solid orange;
+}
+
+.collaboration{
+    border: 2px solid blue;
+}
