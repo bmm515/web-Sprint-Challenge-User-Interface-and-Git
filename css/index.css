@@ -56,7 +56,7 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-nav{
+nav {
     border: 2px solid red;
     display: flex;
     justify-content: space-between;
@@ -215,12 +215,23 @@ footer nav a {
 }
 
 /*styling that only applies to the About me page -->*/
+#about-header img{
+    border: 2px solid blue;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.about-sect{
+    border-bottom: 1px dashed black;
+    padding:2.5%;
+}
 
 .all-content{
     border: 2px solid red;
     display: flex;
     flex-wrap: wrap; /*wrapped so that it would not run off the page*/
-
+    padding: 1.5%;
+    margin-top: 10px;
 }
 
 .all-content div{
@@ -229,16 +240,31 @@ footer nav a {
 
 .strategy{
     border: 2px solid green;  
+    border-bottom: 1px dashed black;
 }
 
 .how-we-work{
     border: 2px solid purple;
+    border-bottom: 1px dashed black;
 } 
 
 .places-we-work{
     border: 2px solid orange;
+    border-bottom: 1px dashed black;
 }
 
 .collaboration{
     border: 2px solid blue;
+    border-bottom: 1px dashed black;
+}
+
+button{
+    font-size: 15px;
+    background-color: white;
+    padding: 2.5%;
+    padding-left: 5%;;
+    padding-right: 5%;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
