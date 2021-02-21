@@ -57,11 +57,11 @@ html, body {
 }
 
 nav {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding-right: 3.5%;
+    padding-right: 5%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -74,7 +74,7 @@ nav a{
 }
 
 header img{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin-top: 15px;
     margin-bottom: 20px;
 }
@@ -216,7 +216,7 @@ footer nav a {
 
 /*styling that only applies to the About me page -->*/
 #about-header img{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin-top: 15px;
     margin-bottom: 0px;
 }
@@ -227,34 +227,35 @@ footer nav a {
 }
 
 .all-content{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-wrap: wrap; /*wrapped so that it would not run off the page*/
-    padding: 1.5%;
+    padding: 2%;
     margin-top: 10px;
+    justify-content: space-between;
 }
 
 .all-content div{
-    width: 50%; /*each div had the width of the .all-content class so cut the width of each by 50% to fit 2 divs "mini sections" per row*/
+    width: 49%; /*each div had the width of the .all-content class so cut the width of each by 50% to fit 2 divs "mini sections" per row*/
 }
 
 .strategy{
-    border: 2px solid green;  
+    /* border: 2px solid green;   */
     border-bottom: 1px dashed black;
 }
 
 .how-we-work{
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     border-bottom: 1px dashed black;
 } 
 
 .places-we-work{
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     border-bottom: 1px dashed black;
 }
 
 .collaboration{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     border-bottom: 1px dashed black;
 }
 
@@ -267,4 +268,11 @@ button{
     border-radius: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
+    border: 2px solid black;
+}
+
+.work{
+    /* border: 2px solid purple; */
+    margin-top: 10px;
+    padding: 2%;
 }
